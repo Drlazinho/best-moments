@@ -16,6 +16,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
 import { MomentComponent } from './pages/moment/moment.component';
+import { EditMomentComponent } from './pages/edit-moment/edit-moment.component';
 
 
 
@@ -30,7 +31,8 @@ import { MomentComponent } from './pages/moment/moment.component';
     NewMomentComponent,
     MomentFormComponent,
     MessagesComponent,
-    MomentComponent,    
+    MomentComponent,
+    EditMomentComponent,    
   ],
   imports: [
     BrowserModule,
