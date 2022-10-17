@@ -38,3 +38,27 @@ a {
   padding: .3em;
 
 }
+
+.search-container {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.search-container form {
+  width: clamp(280px, 50%, 50%);
+  position: relative;
+}
+
+.search-container mat-icon {
+  color: #000;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.search-container input {
+  padding: 0.5rem;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
