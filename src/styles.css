@@ -3,9 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Inter;
-  background-color: #444;
   font-size: 62.5%;
-  color: #ffffff;
 }
 
 h2 {
@@ -37,6 +35,7 @@ a:hover{
 form {
   width: 45rem;
   margin: 0 auto;
+  background-color: #444;
  }
 
 .form-group {
@@ -54,7 +53,7 @@ form {
 .form-group input,
 .form-group textarea {
   padding: .6rem;
-  color: #fff;
+  color: #444;
   font-size: 1.7rem;
   border: 1px solid #7e7e7e;
   border-radius: 5px;
@@ -92,3 +91,5 @@ input[type="file"] {
   border-left: 5px solid #dc3545;
   padding-left: 0.5rem;
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -11,6 +11,13 @@ import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NewMomentComponent } from './pages/new-moment/new-moment.component';
 import { MomentFormComponent } from './components/moment-form/moment-form.component';
+import { MessagesComponent } from './components/messages/messages.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatIconModule} from '@angular/material/icon';
+
+
+
 
 @NgModule({
   declarations: [
@@ -20,7 +27,8 @@ import { MomentFormComponent } from './components/moment-form/moment-form.compon
     HomeComponent,
     AboutComponent,
     NewMomentComponent,
-    MomentFormComponent,    
+    MomentFormComponent,
+    MessagesComponent,    
   ],
   imports: [
     BrowserModule,
@@ -28,6 +36,9 @@ import { MomentFormComponent } from './components/moment-form/moment-form.compon
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    FontAwesomeModule,
+    BrowserAnimationsModule,    
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

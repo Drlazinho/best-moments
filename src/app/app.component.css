@@ -1,4 +1,6 @@
 .container {
   min-height: 65vh;
-  margin-top: 1rem;
+  padding-top: 1rem;
+  background-color: #444;
+  color: #ffffff;
 }
