@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  background-color: #444;
+  font-size: 62.5%;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+span {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: .4s;
+  font-size: 1.6rem;
+}
+
+a:hover{
+  color: coral;
+}
