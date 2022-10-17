@@ -15,6 +15,7 @@ import { MessagesComponent } from './components/messages/messages.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatIconModule} from '@angular/material/icon';
+import { MomentComponent } from './pages/moment/moment.component';
 
 
 
@@ -28,7 +29,8 @@ import {MatIconModule} from '@angular/material/icon';
     AboutComponent,
     NewMomentComponent,
     MomentFormComponent,
-    MessagesComponent,    
+    MessagesComponent,
+    MomentComponent,    
   ],
   imports: [
     BrowserModule,
