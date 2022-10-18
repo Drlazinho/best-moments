@@ -33,3 +33,27 @@ img {
   margin-bottom: 1em;
   padding: 1.5em 0;
 }
+
+form {
+  margin: 3rem 0;
+}
+
+.form-group {
+  text-align: start;
+}
+
+.author, .author span {
+  font-size: 1.5rem;
+}
+.author{
+  font-style: italic;
+  padding: 1rem;
+}
+
+.comment {
+  font-size: 1.8rem;
+}
+.comment-container{
+  width: (200px,  1000px, 70%);
+  padding: 1rem;
+}
