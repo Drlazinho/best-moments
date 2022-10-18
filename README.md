@@ -1,27 +1,80 @@
 # BestMoments
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+Um Crud de postagem de "Melhores momentos", em que pode salvar uma foto com título e descrição, com possibilidade de editar e salvar em um bancos de dados via API. 
 
-## Development server
+Desenvolvido em Angular version 14.2.6
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O projeto foi dividido em componentes, possui navegação, serviços e interfaces. Foi estilizado utilizando CSS e Angular Material. 
 
-## Code scaffolding
+*   Função de procura
+*   Criar postagem
+*   Função de editar postagem
+*   Função de remover postagem
+*   Função de fazer comentários em cada postagem
+*   Função de mensageria
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Resultados
 
-## Running unit tests
+<img src="src/assets/img1.png">
+<img src="src/assets/img2.png">
+<img src="src/assets/img3.png">
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+O projeto foi desenvolvido em Angular.js durante um curso de Angular.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Repositório Backend
 
-## Further help
+[API Adonis](https://github.com/matheusbattisti/curso_adonis_api_yt)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Executando Localmente
+
+### Frontend
+
+1. Primeiro passo
+```
+git clone https://github.com/Drlazinho/best-moments.git
+```
+2. Em seguida entre no diretório usando o terminal
+```
+cd best-moments
+```
+3. Depois de selecionado o diretório digite no terminal.
+```
+yarn install
+or 
+npm install
+```
+4. E por último execute um dos seguintes commandos, que deve ter a mesma primeira palavra chave do comando anterior.
+````
+ng serve
+````
+
+### Backend
+
+1. Primeiro passo
+```
+git clone https://github.com/matheusbattisti/curso_adonis_api_yt.git
+```
+2. Em seguida entre no diretório usando o terminal
+```
+cd curso_adonis_api_yt
+```
+3. Depois de selecionado o diretório digite no terminal.
+```
+yarn install
+or 
+npm install
+```
+4. Gerar um key e usar em novo arquivo copia raiz do projeto .env.example com novo nome .env, em seguida colar a nova key gerada dentro do valor da APP_KEY do arquivo .env
+````
+node ace generate:key
+````
+
+5. Executando o backend
+````
+node ace serve
+````
+
+Para aplicação funcionar corretamente na máquina é necessário iniciar primeiramente o backend
